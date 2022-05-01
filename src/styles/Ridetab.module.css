@@ -1,0 +1,51 @@
+.tab_main {
+  width: 100%;
+  background: #171717;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.ride_details {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #cfcfcf;
+  font-family: "primary";
+  margin-left: 20px;
+}
+
+.ride_details > div {
+  display: flex;
+  flex-direction: row;
+}
+
+.ride_details > div > p {
+  color: white;
+  margin: 0px;
+}
+
+.ride_location {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.location_card {
+  background: #0000008f;
+  padding: 2px 12px;
+  border-radius: 10px;
+  font-family: "primary";
+  color: white;
+  border: none;
+  margin-left: 10px;
+}
+
+.location_card:hover {
+  cursor: default;
+}
